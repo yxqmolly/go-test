@@ -58,3 +58,4 @@ func (p Person) Test4(n int) {
 func (p Person) toString() string {
 	return fmt.Sprintf("Person{Id=%d, Name=%s}", p.Id, p.Name)
 }
+
