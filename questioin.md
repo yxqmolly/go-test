@@ -22,4 +22,15 @@ os.O_RDWR 以读写方式打开
 9、flag.StringVar 如果命令行中某一个值不存在，整体都读取不到
 10、git rm -rf --cached . 删除缓存文件
     git add . 提交文件到缓存区
-11、
+11、chan通道长度定义后不可变
+12、mac安装redis，参考：https://blog.csdn.net/chenzhong373095238/article/details/143179619
+brew install redis
+修改配置文件：
+vim /usr/local/etc/redis.conf
+修改：
+daemonize yes
+datadir /xxx/redis/data
+lofile /xxx/redis/redis.log
+启动服务端：redis-server /xxx/redis.conf
+启动客户端：redis-cli
+13、go中map不能直接存放map
