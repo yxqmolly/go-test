@@ -20,3 +20,6 @@ os.O_TRUNC 清空文件内容
 os.O_RDWR 以读写方式打开
 8、go语言中没有@NotNull注解，需要自己写校验逻辑
 9、flag.StringVar 如果命令行中某一个值不存在，整体都读取不到
+10、git rm -rf --cached . 删除缓存文件
+    git add . 提交文件到缓存区
+11、
