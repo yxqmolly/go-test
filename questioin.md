@@ -31,6 +31,8 @@ vim /usr/local/etc/redis.conf
 daemonize yes
 datadir /xxx/redis/data
 lofile /xxx/redis/redis.log
-启动服务端：redis-server /xxx/redis.conf
+启动服务端：redis-server /usr/local/etc/redis.conf
 启动客户端：redis-cli
 13、go中map不能直接存放map
+14、
+15、
